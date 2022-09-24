@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/farming files/chicken coop.rpy", line 3, in script
+    nol nolan happy1 "(I love chickens! I cant wait to take care of them.)"
+Exception: Sayer 'nol' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/farming files/chicken coop.rpy", line 3, in script
+    nol nolan happy1 "(I love chickens! I cant wait to take care of them.)"
+  File "C:\Users\dhgid\Documents\renpy-8.0.1-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\dhgid\Documents\renpy-8.0.1-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'nol' is not defined.
+
+Windows-10-10.0.22000 AMD64
+Ren'Py 8.0.1.22070801
+By the Vine New 1.0
+Sun Aug 28 18:27:53 2022
